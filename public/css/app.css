@@ -10,3 +10,8 @@ h3 {
   color: red;
 }
 
+a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
