@@ -29,6 +29,10 @@ a {
   display: none;
 }
 
+body {
+  color: #58402c;
+}
+
 header {
   line-height: 40px;
   height: 50px;
@@ -71,5 +75,48 @@ header img {
 
 .header_right a button img {
   left: 8px;
+}
+
+main {
+  padding-top: 80px;
+}
+
+main section.left {
+  width: 40%;
+}
+
+main section.left h1 {
+  font-size: 50px;
+  line-height: 1.4;
+}
+
+main section.left p {
+  line-height: 1.5;
+}
+
+main section.left button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  width: 170px;
+  border-radius: 10%;
+  position: relative;
+}
+
+main section.left button img {
+  width: 25px;
+  position: absolute;
+  top: 5px;
+}
+
+main section.left a.left {
+  padding-top: 15px;
+}
+
+main .sfondo {
+  width: 60%;
+  height: 400px;
+  background-size: cover;
+  background-image: url("https://teambit.io/wp-content/themes/teambeat/img/illustration-main.jpg");
 }
 
