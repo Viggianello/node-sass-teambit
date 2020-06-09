@@ -1,0 +1,26 @@
+section.second{
+    float: left;
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background: #cfd7ef;
+    // .immagini{
+    //     // width: 40%;
+    //     // margin: auto;
+    // }
+    .immagine{
+        // width: calc(100% / 3 - 4px);
+        margin: 0 5%;
+        // ogni immagine avra 10% di laghezza totale in margine
+        width: calc(70%/ 6 - 4px);
+        display: inline-block;
+        // c'è un problema sui margini
+        margin-bottom: 30px;
+
+    }
+    .immaginesotto{
+        margin: auto;
+        width: 20%;
+    }
+}

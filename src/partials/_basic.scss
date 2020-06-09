@@ -6,6 +6,9 @@
 a{
     text-decoration-line: none;
     color: black;
+    &:hover{
+        color: lightblue;
+    }
 }
 .left{
     float: left;
@@ -28,4 +31,8 @@ body{
 }
 .blue{
     color: blue;
+}
+img{
+    width: 100%;
+    height: auto;
 }
