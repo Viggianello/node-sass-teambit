@@ -2,13 +2,31 @@ footer{
     float: left;
     height: 500px;
     width: 100%;
-    border: 1px solid gray;
+    // border: 1px solid gray;
     padding-top: 20px;
+    .primo{
+        width: 26%;
+        float: left;
+        position: relative;
+        img{
+            width: 50px;
+            position: absolute;
+            top: 5px;
+            height: 50px;
+        }
+        p{
+            padding-left: 55px;
+        }
+    }
     .tab{
-        float: right;
-        width: 15%;
+        float: left;
+        width: 13%;
         height: 100%;
-        background-color: red;
-        border: 1px solid black;
+        // background-color: red;
+        // border: 1px solid black;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        line-height: 28px;
     }
 }
