@@ -1,0 +1,14 @@
+footer{
+    float: left;
+    height: 500px;
+    width: 100%;
+    border: 1px solid gray;
+    padding-top: 20px;
+    .tab{
+        float: right;
+        width: 15%;
+        height: 100%;
+        background-color: red;
+        border: 1px solid black;
+    }
+}
