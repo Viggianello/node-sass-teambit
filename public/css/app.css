@@ -1,19 +1,50 @@
-img {
-  width: 25px;
-}
-
 h2 {
   color: red;
 }
 
-h3 {
-  color: red;
+a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.padzero {
+  padding: 0;
+}
+
+.invisible {
+  display: none;
 }
 
 header {
   line-height: 40px;
   height: 50px;
   width: 100%;
+  position: relative;
+  border-bottom: 1px solid grey;
+}
+
+header img {
+  width: 25px;
+  position: absolute;
+  top: 5px;
+}
+
+.header_left a {
+  padding-left: 35px;
 }
 
 .header_right a {
@@ -24,16 +55,21 @@ header {
   border: 0;
 }
 
-a {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+.header_right a button {
+  color: blue;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10%;
+  position: relative;
+  background-color: white;
 }
 
-.left {
-  float: left;
+.header_right a button:hover {
+  background-color: blue;
+  color: white;
 }
 
-.right {
-  float: right;
+.header_right a button img {
+  left: 8px;
 }
 

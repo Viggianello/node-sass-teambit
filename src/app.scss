@@ -1,29 +1,7 @@
 $coloretitoli: red;
-img{
-    width: 25px;
-}
 h2{
     color: $coloretitoli;
 }
-h3{
-    color: $coloretitoli;
-}
-header{
-    line-height: 40px;
-    height: 50px;
-    width: 100%;
-}
-.header_left{
-
-}
-.header_right{
-    a{
-        padding: 15px;
-        select{
-            border: 0;
-        }
-    }
-}
-
 
 @import 'partials/_basic';
+@import 'partials/_header';
